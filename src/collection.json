@@ -3,7 +3,8 @@
   "schematics": {
     "ngrx-enterprise-edition": {
       "description": "Schematic for generatic ngrx at an enterprise level",
-      "factory": "./ngrx-enterprise-edition/index#ngrxEnterpriseEdition"
+      "factory": "./ngrx-enterprise-edition/index#ngrxEnterpriseEdition",
+      "schema": "./ngrx-enterprise-edition/schema.json"
     }
   }
 }
