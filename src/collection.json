@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ngrx-enterprise-edition": {
+      "description": "Schematic for generatic ngrx at an enterprise level",
+      "factory": "./ngrx-enterprise-edition/index#ngrxEnterpriseEdition"
+    }
+  }
+}
