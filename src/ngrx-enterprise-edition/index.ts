@@ -14,7 +14,7 @@ import { strings } from '@angular-devkit/core';
 
 export function ngrxEnterpriseEdition(_options: Options): Rule {
   return (tree: Tree, _context: SchematicContext) => {
-    const templateSource = apply(url('./files'), [
+    const templateSource = apply(url('./ngrx-store-templates'), [
       template({
         ...strings,
         ..._options
