@@ -8,3 +8,6 @@ export class SomeAction implements Action {
   readonly type = <%= classify(name) %>ActionTypes.SOME_ACTION;
   constructor(public payload: boolean) {}
 }
+
+export type <%= classify(name) %>Actions = SomeAction;
+
