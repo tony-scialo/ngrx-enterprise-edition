@@ -1,3 +1,6 @@
 export interface Options {
-  storeName: string;
+  name: string;
+  path?: string;
+  project?: string;
+  module?: string;
 }
