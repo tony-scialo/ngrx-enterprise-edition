@@ -1,6 +1,6 @@
 import { featureReducer } from './reducer';
-// import { TerminalEffects } from './effects';
-// import { EffectsModule } from '@ngrx/effects';
+import { <%= classify(name) %>Effects } from './effects';
+import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -9,9 +9,9 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule,
     StoreModule.forFeature('<%= decamelize(name) %>', featureReducer)
-    // EffectsModule.forFeature([TerminalEffects])
+    EffectsModule.forFeature([<%= classify(name) %>Effects]),
   ],
-  //   providers: [TerminalEffects],
+    providers: [<%= classify(name) %>Effects],
   declarations: []
 })
 export class <%= classify(name) %>StoreModule {}
