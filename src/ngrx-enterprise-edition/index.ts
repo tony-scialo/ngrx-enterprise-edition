@@ -40,7 +40,7 @@ export function ngrxGenerateRoot(_options: Options): Rule {
         ...strings,
         ..._options
       }),
-      move(_options.path + '/root-module' || '')
+      move(_options.path || '')
     ]);
     const rule = chain([branchAndMerge(chain([mergeWith(templateSource)]))]);
 

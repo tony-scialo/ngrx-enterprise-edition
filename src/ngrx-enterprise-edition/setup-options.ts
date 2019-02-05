@@ -14,7 +14,7 @@ export function setupOptions(options: Options, host: Tree): void {
     const projectDirName =
       project.projectType === 'application' ? 'app' : 'lib';
 
-    options.path = `/${project.root}/src/${projectDirName}`;
+    options.path = `/${project.root}/src/${projectDirName}/root-module`;
   }
   const parsedPath = parseName(options.path, options.name);
   options.name = parsedPath.name;
