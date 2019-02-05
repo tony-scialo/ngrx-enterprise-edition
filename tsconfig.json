@@ -29,6 +29,7 @@
     "src/**/*"
   ],
   "exclude": [
-    "src/*/ngrx-store-templates/**/*"
+    "src/*/ngrx-store-templates/**/*",
+    "src/*/ngrx-root-templates/**/*"
   ]
 }
