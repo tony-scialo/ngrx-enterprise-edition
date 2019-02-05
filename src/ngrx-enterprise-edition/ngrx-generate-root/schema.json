@@ -4,12 +4,9 @@
     "title": "ngrx enterprise edition",
     "type": "object",
     "properties": {
-        "name": {
+        "dirName": {
             "type": "string",
-            "$default": {
-                "$source": "argv",
-                "index": 0
-            }
+            "description": "The name of the directory you want to generate the root store module"
         },
         "path": {
             "type": "string",

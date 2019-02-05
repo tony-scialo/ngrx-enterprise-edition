@@ -13,6 +13,7 @@ import {
 } from '@angular-devkit/schematics';
 import { strings } from '@angular-devkit/core';
 import { setupOptions } from './setup-options';
+import { setupRootOptions } from './ngrx-generate-root/setup-root-options';
 
 export function ngrxGenerateStore(_options: Options): Rule {
   return (tree: Tree, _context: SchematicContext) => {
@@ -36,7 +37,7 @@ export function ngrxGenerateStore(_options: Options): Rule {
 
 export function ngrxGenerateRoot(_options: Options): Rule {
   return (tree: Tree, _context: SchematicContext) => {
-    setupOptions(_options, tree);
+    setupRootOptions(_options, tree);
 
     const templateSource = apply(
       url('./ngrx-generate-root/ngrx-root-templates'),
