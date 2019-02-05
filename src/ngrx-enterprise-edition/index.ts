@@ -1,4 +1,4 @@
-import { Options } from './schema';
+import { Options } from './ngrx-generate-store/schema';
 import {
   Rule,
   SchematicContext,

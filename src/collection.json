@@ -5,7 +5,7 @@
       "aliases": ["ngrx-g-st"],
       "description": "Schematic for generating ngrx a new store",
       "factory": "./ngrx-enterprise-edition/index#ngrxGenerateStore",
-      "schema": "./ngrx-enterprise-edition/schema.json"
+      "schema": "./ngrx-enterprise-edition/ngrx-generate-store/schema.json"
     },
     "ngrx-generate-root": {
       "aliases": ["ngrx-g-r"],

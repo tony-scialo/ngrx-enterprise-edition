@@ -1,7 +1,7 @@
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { Tree } from '@angular-devkit/schematics';
-import { Options } from './schema';
+import { Options } from './ngrx-generate-store/schema';
 
 export function setupOptions(options: Options, host: Tree): void {
   const workspace = getWorkspace(host);
