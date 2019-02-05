@@ -24,6 +24,4 @@ export function setupRootOptions(options: Options, host: Tree): void {
   const parsedPath = parseName(options.path, options.dirName);
   options.dirName = parsedPath.name;
   options.path = parsedPath.path;
-
-  console.log(options);
 }
