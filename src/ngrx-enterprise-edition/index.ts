@@ -12,12 +12,12 @@ import {
   move
 } from '@angular-devkit/schematics';
 import { strings } from '@angular-devkit/core';
-import { setupOptions } from './setup-options';
 import { setupRootOptions } from './ngrx-generate-root/setup-root-options';
+import { setupStoreOptions } from './ngrx-generate-store/setup-store-options';
 
 export function ngrxGenerateStore(_options: Options): Rule {
   return (tree: Tree, _context: SchematicContext) => {
-    setupOptions(_options, tree);
+    setupStoreOptions(_options, tree);
 
     const templateSource = apply(
       url('./ngrx-generate-store/ngrx-store-templates'),

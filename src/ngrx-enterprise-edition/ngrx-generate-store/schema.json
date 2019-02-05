@@ -11,6 +11,9 @@
                 "index": 0
             }
         },
+        "dirName": {
+            "type": "string"
+        },
         "path": {
             "type": "string",
             "format": "path",
