@@ -29,7 +29,7 @@
     "src/**/*"
   ],
   "exclude": [
-    "src/*/ngrx-store-templates/**/*",
-    "src/*/ngrx-root-templates/**/*"
+    "src/*/ngrx-generate-store/ngrx-store-templates/**/*",
+    "src/*/ngrx-generate-root/ngrx-root-templates/**/*"
   ]
 }
