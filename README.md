@@ -1,28 +1,41 @@
-# Getting Started With Schematics
+# ngrx-enterprise-edition
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+> A scaffolding library for using ngrx in an enterprise environment
 
-### Testing
+---
 
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+## what is ngrx-ee?
 
-Check the documentation with
-```bash
-schematics --help
+> Inspiration for this ngrx schematic came from the following post on [Medium](https://itnext.io/ngrx-best-practices-for-enterprise-angular-applications-6f00bcdf36d7) by Wes Grimes (shoutout!). Our team started using a similar process so I wrote a schematic to help automate some of the boilerplate code we were using.
+
+### How to Use
+
+To generate the initial boilerplate root-module, run the following:
+
+```shell
+$ ng g ngrx-enterprise-edition:ngrx-g-r
 ```
 
-### Unit Testing
+This will generate the files in a generic 'root-module' directory under 'app' (if using an application) or 'lib' (if using a library).
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
+To change the directory name from 'root-module' to something of your choosing, use:
 
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
+```shell
+$ ng g ngrx-enterprise-edition:ngrx-g-r --dirName=someDir
 ```
 
-That's it!
- 
+To generate a feature store, run the following:
+
+```shell
+$ ng g ngrx-enterprise-edition:ngrx-g-st MyFeature
+```
+
+You can also generate this in a the directory of your choice using:
+
+```shell
+$ ng g ngrx-enterprise-edition:ngrx-g-st MyFeature --dirName=someDirectory
+```
+
+## Authors
+
+Tony Scialo
