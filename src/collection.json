@@ -1,9 +1,10 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "ngrx-enterprise-edition": {
-      "description": "Schematic for generatic ngrx at an enterprise level",
-      "factory": "./ngrx-enterprise-edition/index#ngrxEnterpriseEdition",
+    "ngrx-generate-store": {
+      "aliases": ["ngrx-g-st"],
+      "description": "Schematic for generatic ngrx a new store",
+      "factory": "./ngrx-enterprise-edition/index#ngrxGenerateStore",
       "schema": "./ngrx-enterprise-edition/schema.json"
     }
   }

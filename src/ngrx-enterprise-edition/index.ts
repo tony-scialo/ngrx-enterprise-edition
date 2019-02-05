@@ -14,7 +14,7 @@ import {
 import { strings } from '@angular-devkit/core';
 import { setupOptions } from './setup-options';
 
-export function ngrxEnterpriseEdition(_options: Options): Rule {
+export function ngrxGenerateStore(_options: Options): Rule {
   return (tree: Tree, _context: SchematicContext) => {
     setupOptions(_options, tree);
 
