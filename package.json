@@ -20,7 +20,9 @@
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
     "jasmine": "^2.8.0",
-    "typescript": "~3.1.6",
+    "typescript": "~3.1.6"
+  },
+  "devDependencies": {
     "@schematics/angular": "^7.2.3"
   },
   "repository": {

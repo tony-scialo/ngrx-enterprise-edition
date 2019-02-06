@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   imports: [
     CommonModule,
-    StoreModule.forFeature('<%= decamelize(name) %>', featureReducer)
+    StoreModule.forFeature('<%= decamelize(name) %>', featureReducer),
     EffectsModule.forFeature([<%= classify(name) %>Effects]),
   ],
     providers: [<%= classify(name) %>Effects],
