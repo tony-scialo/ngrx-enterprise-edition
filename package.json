@@ -1,13 +1,15 @@
 {
   "name": "ngrx-enterprise-edition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schematic to generate ngrx at an enterprise level",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [
-    "schematics"
+    "schematics",
+    "ngrx",
+    "ngrx-ee"
   ],
   "author": "",
   "license": "MIT",
@@ -18,9 +20,15 @@
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
     "jasmine": "^2.8.0",
-    "typescript": "~3.1.6"
-  },
-  "devDependencies": {
+    "typescript": "~3.1.6",
     "@schematics/angular": "^7.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-scialo/ngrx-enterprise-edition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tony-scialo/ngrx-enterprise-edition/issues"
+  },
+  "homepage": "https://github.com/tony-scialo/ngrx-enterprise-edition#readme"
 }
