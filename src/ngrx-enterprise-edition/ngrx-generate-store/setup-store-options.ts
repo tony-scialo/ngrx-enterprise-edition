@@ -11,7 +11,7 @@ export function setupStoreOptions(options: Options, host: Tree): void {
   const project = workspace.projects[options.project];
 
   if (options.dirName == undefined) {
-    options.dirName = 'root-module';
+    options.dirName = 'root-store';
   }
 
   if (options.path === undefined) {
