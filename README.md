@@ -27,7 +27,7 @@ This will generate the files in a generic 'root-module' directory under 'app' (i
 To change the directory name from 'root-module' to something of your choosing, use:
 
 ```shell
-$ ng g ngrx-enterprise-edition:ngrx-g-r --dirName=someDir
+$ ng g ngrx-enterprise-edition:g-r --dirName=someDir
 ```
 
 To generate a feature store, run the following:
@@ -45,7 +45,7 @@ ng g ngrx-enterprise-edition:g-st MyFeature
 You can also generate this in a the directory of your choice using:
 
 ```shell
-$ ng g ngrx-enterprise-edition:ngrx-g-st MyFeature --dirName=someDirectory
+$ ng g ngrx-enterprise-edition:g-st MyFeature --dirName=someDir
 ```
 
 ## Authors

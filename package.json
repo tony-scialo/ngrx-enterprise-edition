@@ -1,6 +1,6 @@
 {
   "name": "ngrx-enterprise-edition",
-  "version": "1.0.2-rc.5",
+  "version": "1.0.3",
   "description": "Schematic to generate ngrx at an enterprise level",
   "scripts": {
     "build": "tsc -p tsconfig.json",
