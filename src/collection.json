@@ -1,14 +1,14 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "ngrx-generate-store": {
-      "aliases": ["ngrx-g-st"],
+    "generate-store": {
+      "aliases": ["g-st"],
       "description": "Schematic for generating ngrx a new store",
       "factory": "./ngrx-enterprise-edition/index#ngrxGenerateStore",
       "schema": "./ngrx-enterprise-edition/ngrx-generate-store/schema.json"
     },
-    "ngrx-generate-root": {
-      "aliases": ["ngrx-g-r"],
+    "generate-root": {
+      "aliases": ["g-r"],
       "description": "Schematic for generating the root module for the ngrx store",
       "factory": "./ngrx-enterprise-edition/index#ngrxGenerateRoot",
       "schema": "./ngrx-enterprise-edition/ngrx-generate-root/schema.json"

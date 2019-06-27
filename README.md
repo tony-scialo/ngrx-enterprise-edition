@@ -13,7 +13,13 @@
 To generate the initial boilerplate root-module, run the following:
 
 ```shell
-$ ng g ngrx-enterprise-edition:ngrx-g-r
+ng g ngrx-enterprise-edition:generate-root
+```
+
+or using the alias
+
+```shell
+ng g ngrx-enterprise-edition:g-r
 ```
 
 This will generate the files in a generic 'root-module' directory under 'app' (if using an application) or 'lib' (if using a library).
@@ -27,7 +33,13 @@ $ ng g ngrx-enterprise-edition:ngrx-g-r --dirName=someDir
 To generate a feature store, run the following:
 
 ```shell
-$ ng g ngrx-enterprise-edition:ngrx-g-st MyFeature
+ng g ngrx-enterprise-edition:generate-store MyFeature
+```
+
+or the alias
+
+```shell
+ng g ngrx-enterprise-edition:g-st MyFeature
 ```
 
 You can also generate this in a the directory of your choice using:
